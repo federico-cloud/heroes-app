@@ -1,5 +1,5 @@
 import React, {useMemo} from 'react'
-import { Navigate, useNavigate, useParams } from 'react-router-dom'
+import { useNavigate, useParams } from 'react-router-dom'
 import { getHeroeById } from '../../selectors/getHeroeById';
 
 export const HeroScreen = () => {
@@ -37,7 +37,7 @@ export const HeroScreen = () => {
           <img
             src={imagePath}
             alt={superhero}
-            className='img-thumbnail'
+            className='img-thumbnail animate__animated animate__fadeInTopLeft'
           />
         </div>
         <div className='col-8'>
