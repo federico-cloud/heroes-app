@@ -1,4 +1,3 @@
-import userEvent from '@testing-library/user-event';
 import React, { useContext } from 'react'
 import { Link, NavLink, useNavigate } from 'react-router-dom'
 import { AuthContext } from '../auth/authContext';
