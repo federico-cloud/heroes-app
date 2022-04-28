@@ -1,7 +1,7 @@
 import {heroes} from '../data/heroes';
 
 export const getHeroeByName = ( name = '' ) => {
-    
+
     name = name.toLowerCase();
 
     if(name === '') {
@@ -12,5 +12,4 @@ export const getHeroeByName = ( name = '' ) => {
 
     return heroesFilter;
     
-
 }
